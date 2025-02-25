@@ -1,20 +1,20 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import {
+  Briefcase,
+  ClipboardCheck,
   Facebook,
-  Twitter,
+  FileText,
   Instagram,
   Linkedin,
   Mail,
-  Phone,
   MapPin,
-  Briefcase,
-  ClipboardCheck,
-  FileText,
-  Send,
-  Users,
   Newspaper,
+  Phone,
+  Send,
+  Twitter,
+  Users,
 } from "lucide-react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const [bgColor, setBgColor] = useState(
