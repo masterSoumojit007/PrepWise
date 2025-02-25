@@ -1,5 +1,4 @@
 import { Container } from "@/components/container";
-import { AuroraText } from "@/components/magicui/aurora-text";
 import { TextAnimate } from "@/components/magicui/text-animate";
 import LogoMarquee from "@/components/marquee";
 import { MarqueeDemo } from "@/components/testimonial";
@@ -20,9 +19,10 @@ const HomePage = () => {
         {/* Hero Section */}
         <div className="my-12 text-center md:text-left px-4 md:px-0">
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight">
-            <span className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400 animate-text-glow relative before:absolute before:-inset-1 before:bg-gradient-to-r before:from-white/30 before:to-gray-400/30 before:blur-lg before:-z-10 transition-all duration-300">
-              <AuroraText>AI Superpower</AuroraText>
+            <span className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text animate-gradient-text relative before:absolute before:-inset-1 before:bg-gradient-to-r before:from-purple-500/30 before:to-blue-500/30 before:blur-lg before:-z-10 transition-all duration-300">
+              AI Superpower
             </span>
+
             <span className="text-gray-300"> - Smarter way to</span>
             <br />
             <span className="text-gray-100"> Ace Your Interviews</span>
@@ -177,8 +177,6 @@ const HomePage = () => {
         </h2>
         <MarqueeDemo />
       </div>
-
-      
     </div>
   );
 };
