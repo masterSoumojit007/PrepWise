@@ -11,21 +11,22 @@ import {
   Users,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-
 const HomePage = () => {
   return (
     <div className="flex flex-col w-full pb-24 bg-black text-white">
       <Container>
         {/* Hero Section */}
         <div className="my-12 text-center md:text-left px-4 md:px-0">
-          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight">
-            <span className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text animate-gradient-text relative before:absolute before:-inset-1 before:bg-gradient-to-r before:from-purple-500/30 before:to-blue-500/30 before:blur-lg before:-z-10 transition-all duration-300">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-green-300 to-yellow-300 font-extrabold md:text-8xl animate-gradient">
               AI Superpower
             </span>
 
             <span className="text-gray-300"> - Smarter way to</span>
             <br />
-            <span className="text-gray-100"> Ace Your Interviews</span>
+            <span className="text-gray-100 text-2xl sm:text-3xl mt-2 font-bold">
+              Ace Your Interviews
+            </span>
           </h2>
 
           <TextAnimate

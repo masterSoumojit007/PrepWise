@@ -2,51 +2,19 @@ const LogoMarquee = () => {
   return (
     <div className="logo-marquee-container">
       <div className="logo-marquee">
-        <img src="/public/assets/img/clerk.svg" alt="Logo 1" className="logo" />
-        <img src="/public/assets/img/bolt.svg" alt="Logo 1" className="logo" />
-        <img
-          src="/public/assets/img/coursera.svg"
-          alt="Logo 1"
-          className="logo"
-        />
-        <img
-          src="/public/assets/img/firebase.svg"
-          alt="Logo 1"
-          className="logo"
-        />
-        <img
-          src="/public/assets/img/gemini.svg"
-          alt="Logo 1"
-          className="logo"
-        />
-        <img
-          src="/public/assets/img/google.svg"
-          alt="Logo 1"
-          className="logo"
-        />
-        <img
-          src="/public/assets/img/microsoft.svg"
-          alt="Logo 1"
-          className="logo"
-        />
-        <img
-          src="/public/assets/img/nextjs.svg"
-          alt="Logo 1"
-          className="logo"
-        />
-        <img
-          src="/public/assets/img/tailwind.svg"
-          alt="Logo 1"
-          className="logo"
-        />
-        <img src="/public/assets/img/uber.svg" alt="Logo 1" className="logo" />
-        <img src="/public/assets/img/udemy.svg" alt="Logo 1" className="logo" />
-        <img
-          src="/public/assets/img/vitejs.svg"
-          alt="Logo 1"
-          className="logo"
-        />
-        <img src="/public/assets/img/zoom.svg" alt="Logo 1" className="logo" />
+        <img src="/assets/img/clerk.svg" alt="Logo 1" className="logo" />
+        <img src="/assets/img/bolt.svg" alt="Logo 1" className="logo" />
+        <img src="/assets/img/coursera.svg" alt="Logo 1" className="logo" />
+        <img src="/assets/img/firebase.svg" alt="Logo 1" className="logo" />
+        <img src="/assets/img/gemini.svg" alt="Logo 1" className="logo" />
+        <img src="/assets/img/google.svg" alt="Logo 1" className="logo" />
+        <img src="/assets/img/microsoft.svg" alt="Logo 1" className="logo" />
+        <img src="/assets/img/nextjs.svg" alt="Logo 1" className="logo" />
+        <img src="/assets/img/tailwind.svg" alt="Logo 1" className="logo" />
+        <img src="/assets/img/uber.svg" alt="Logo 1" className="logo" />
+        <img src="/assets/img/udemy.svg" alt="Logo 1" className="logo" />
+        <img src="/assets/img/vitejs.svg" alt="Logo 1" className="logo" />
+        <img src="/assets/img/zoom.svg" alt="Logo 1" className="logo" />
         {/* Add more logos as needed */}
       </div>
 

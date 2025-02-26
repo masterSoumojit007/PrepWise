@@ -111,8 +111,23 @@
 }
 
 
-/* Keyframe for animated gradient effect */
-@keyframes gradientTextAnimation {
+@keyframes animate-text {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-text {
+  animation: animate-text 1s ease-in-out forwards;
+}
+
+
+@keyframes gradientAnimation {
   0% {
     background-position: 0% 50%;
   }
@@ -124,22 +139,8 @@
   }
 }
 
-/* Apply the animated gradient effect to the text */
-.animate-gradient-text {
-  background-image: linear-gradient(45deg, #7b2ff7, #00c6ff, #ff6a00);
-  background-size: 400% 400%;
-  animation: gradientTextAnimation 4s ease infinite;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientAnimation 3s ease infinite;
 }
 
-/* Optional: Glow effect */
-.relative::before {
-  content: '';
-  position: absolute;
-  inset: -1px;
-  background: linear-gradient(to right, #7b2ff7, #00c6ff, #ff6a00);
-  filter: blur(8px);
-  z-index: -1;
-}

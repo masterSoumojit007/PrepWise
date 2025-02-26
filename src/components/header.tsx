@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header
       className={cn(
-        "w-full border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900",
+        "w-full border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-gray-800 via-gray-900 to-black",
         "duration-150 transition-all ease-in-out"
       )}
     >
